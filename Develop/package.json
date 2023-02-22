@@ -2,13 +2,14 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Beena Robert",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "jest": "^26.0.1"
   }
 }
